@@ -1,1 +1,59 @@
-test
+ Start programm creating spectrogramm.
+
+list fragments
+                file_name  length
+class                            
+bigtown-scene1        100     100
+
+ list fragments
+                     file_name  length
+class                                 
+bigtown-scene1-test        100     100
+
+ list fragments
+        file_name  length  file_name_source
+class                                      
+target1         33      33                33
+target2         33      33                33
+target3         33      33                33
+
+ list fragments
+             file_name  length  file_name_source
+class                                           
+target1-test         33      33                33
+target2-test         33      33                33
+target3-test         33      33                33
+
+ Creating spectrogram for train
+
+ Loading wav files ...
+
+ k_mix_noise =  0.9645900248315574
+
+ SNR(dB) =  7.691612643185013e-08
+path as  ./Out/train_
+
+ shape baze
+x_train.shape =  (129, 8)
+y_train.shape =  (129,)
+len train records x =  62493
+len train records y =  62493
+save in npz-file ...
+
+ Creating spectrogram for test
+
+ Loading wav files ...
+
+ k_mix_noise =  0.9336342975759196
+
+ SNR(dB) =  1.216178790303568e-07
+path as  ./Out/test_
+
+ shape baze
+x_train.shape =  (129, 8)
+y_train.shape =  (129,)
+len train records x =  62493
+len train records y =  62493
+save in npz-file ...
+
+ End programm creating spectrogramm.
