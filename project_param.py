@@ -35,9 +35,9 @@ class _param(object):
     class_noise_test            = ['bigtown-scene1-test']
     n_records_noise_test        = 100
 
-    class_target             = ['voice1', 'voice2', 'voice3']
+    class_target             = ['vtarget1', 'target2', 'target3']
     n_records_target         = 100
-    class_target_test        = ['voice1-test', 'voice2-test', 'voice3-test']
+    class_target_test        = ['target1-test', 'target2-test', 'target3-test']
     n_records_target_test    = 100
 
     # ratio noise to target signal
